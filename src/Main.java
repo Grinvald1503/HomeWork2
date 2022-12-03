@@ -30,6 +30,14 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
+        var boxerOne = 78.2;
+        var boxerTwo = 82.7;
+        var sumWeight = boxerOne + boxerTwo;
+        var differenceWeight = Math.abs(boxerOne - boxerTwo);
+        System.out.println("Общий вес двух бойцов " + sumWeight + "кг.");
+        System.out.println("Разница между весами бойцов " + differenceWeight + "кг.");
+
+
 
 
 
