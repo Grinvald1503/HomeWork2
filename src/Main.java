@@ -39,7 +39,13 @@ public class Main {
         var ves1 = boxerTwo - boxerOne;
         var ves2 = boxerTwo % boxerOne;
 
-
+        var totalTime = 640;
+        var hoursPerDatEmployee = 8;
+        var numberOfEmployees = totalTime / hoursPerDatEmployee;
+        var numberOfEmployees94 = numberOfEmployees + 94;
+        var hoursDivided = numberOfEmployees94 * hoursPerDatEmployee;
+        System.out.println("Всего работников в компании - " + numberOfEmployees + " человек");
+        System.out.println("Если в  компании работает " + numberOfEmployees94 + " человек, то всего " + hoursDivided + " часов работы может быть поделено между сотрудниками");
 
 
 
